@@ -12,6 +12,7 @@
   ],
   "scripts": {
     "build": "nwb build-react-component && npm run copy-style && npm run copy-style-es",
+    "buildOld": "NODE_OPTIONS=--openssl-legacy-provider nwb build-react-component && npm run copy-style && npm run copy-style-es",
     "copy-style": "cp -r src/style lib/style",
     "copy-style-es": "cp -r src/style es/style",
     "clean": "nwb clean-module && nwb clean-demo",
@@ -22,19 +23,20 @@
     "test:watch": "nwb test-react --server"
   },
   "dependencies": {
-    "mathjs": "6.0.2"
+    "mathjs": "13.0.3",
+    "prop-types": "^15.8.1"
   },
   "peerDependencies": {
-    "react": "15.x"
+    "react": "18.3.1"
   },
   "devDependencies": {
     "babel-plugin-transform-class-properties": "^6.24.1",
-    "mathjs": "6.0.2",
-    "nwb": "0.23.x",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "mathjs": "13.0.3",
+    "nwb": "^0.25.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
-  "author": "avinash sivaraman",
+  "author": "TartLabs",
   "homepage": "https://github.com/tart-labs/tl-awesome-react-calculator",
   "license": "MIT",
   "repository": {
