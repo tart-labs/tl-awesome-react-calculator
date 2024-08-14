@@ -1,24 +1,20 @@
-# Awesome React Calculator
+# TartLabs Awesome React Calculator
 
-Awesome React Calculator is a React Component library. It gives you a simple calculator component to work in your project. It supports keyboard and you can paste your expression to get the result.
+TartLabs Awesome React Calculator is a React Component library. It gives you a simple calculator component to work in your project. It supports keyboard and you can paste your expression to get the result.
 
 
-[![npm version](https://img.shields.io/badge/npm-1.0.9-blue.svg)](https://www.npmjs.com/package/awesome-react-calculator)
+[![npm version](https://img.shields.io/badge/npm-2.0.0-blue.svg)](https://www.npmjs.com/package/tl-awesome-react-calculator)
 
 ## Installation
 
 Use the npm or yarn to install
 
 ```bash
-npm install -S awesome-react-calculator
+npm install -S tl-awesome-react-calculator
 ```
 ```bash
-yarn add awesome-react-calculator
+yarn add tl-awesome-react-calculator
 ```
-
-## Live Examples
-
-[Live Demo](https://csb-ncxvw.netlify.com/) or [Live Coding](https://codesandbox.io/embed/loving-bird-ncxvw)
 
 
 ## Usage
@@ -27,7 +23,7 @@ yarn add awesome-react-calculator
 
 import React, {Component} from 'react'
 import {render} from 'react-dom'
-import Calculator from "awesome-react-calculator";
+import Calculator from "tl-awesome-react-calculator";
 
 const style = {
   height: '24rem',
